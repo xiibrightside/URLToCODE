@@ -1,0 +1,17 @@
+[
+  {
+    "key": "1",
+    "heading": "WHAT IS THIS ?",
+    "description": "> Built upon the ReactJS framework and using the ( https://shrtco.de/ ) API, this website does the Simple task of Shortening the provided URL down to a 5-letter CODE, which can then later be used to access the URL again, it provides an Effecient, Safe and Elegant Sharability of Links. Simply Enter URL in the {URL to CODE} section to get a Link and share the Code you recieve the person on the recieving end will the use the {CODE to URL} section or just prefix the Code with - (https://shrtco.de/) to access the website. Hover over the hyperLink to preview it before accessing it for your own Safety !"
+  },
+  {
+    "key": "2",
+    "heading": "BANNED LINKS",
+    "description": "> Because of continuous misuse of (shrtco.de/) URL Shortening service they now have a system to prevent users from shorteneing links to specific websites. This includes phishing websites, websites which distribute malware, adult websites and websites linked to illegal activites. If you know a potentially bad website which is not yet Banned or a Banned website which shouldnt be Banned on (shrtco.de/), kindly let them know by sending them an email to (info@tibush.com)."
+  },
+  {
+    "key": "3",
+    "heading": "REPORT ABUSE",
+    "description": "> If you find a Link that violates the Terms of Service Linked in the footer below please send shrtcode an email on info@tibush.com containing the Link. They will then check it and eventually block it. Thank you for your help."
+  }
+]

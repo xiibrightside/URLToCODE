@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+/* Defaults */
+body {
+  color: #20c20e;
+  background-color: black;
+  font-family: "Noto Sans Mono", monospace;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header */
+header {
+  width: 100%;
+  height: auto;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+header h1 {
+  font-size: 60px;
+  font-weight: 700;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Sections */
+.section-container {
+  gap: 20%;
+  width: 100%;
+  height: 60vh;
+}
+.section-buttons {
+  gap: 50px;
+}
+.section-buttons button {
+  letter-spacing: 2px;
+  padding: 5px 15px 5px 15px;
+  transition: all 300ms ease-in-out;
+}
+.section-container button:hover {
+  color: #67f856;
+  transition: all 300ms ease-in-out;
+}
+.active {
+  color: #67f856;
+  box-shadow: #67f856 2px 3px;
+  transition: all 300ms ease-in-out;
+}
+/* Pages - URLTOCODE // CODETOURL Combined */
+.input-bar {
+  width: 500px;
+  border: solid 3px #20c20e;
+}
+.input-bar input {
+  width: 380px;
+  outline: none;
+  padding: 10px 30px 10px 30px;
+}
+.input-bar button {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.output-container {
+  width: 100%;
+  justify-content: space-between;
+}
+.output-container button {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.output-box {
+  width: 380px;
+  height: 50px;
+  border: solid 3px #20c20e;
+  transition: all 300ms ease-in-out;
+}
+.output-box:hover {
+  border: solid 3px #67f856;
+  transition: all 300ms ease-in-out;
+}
+.loading-error {
+  width: 500px;
+  height: 100px;
+}
+/* Docs */
+.docs-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.docs {
+  width: 40%;
+}
+.docs h1 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.docs p {
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.divider {
+  width: 40%;
+  height: 2px;
+  background-color: #67f856;
 }

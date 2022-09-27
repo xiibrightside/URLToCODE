@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable no-unused-vars */
+import React, { useState } from "react";
+import "./App.css";
+import Footer from "./Components/Footer";
+import Section from "./Components/Section";
+import Docs from "./Docs/Docs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <h1 className="header-title">URL ⇄ CODE</h1>
       </header>
+      <Section />
+      <Docs />
     </div>
   );
 }
