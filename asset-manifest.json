@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/URLToCODE/static/css/main.4065de94.css",
+    "main.js": "/URLToCODE/static/js/main.b995d01a.js",
+    "index.html": "/URLToCODE/index.html",
+    "main.4065de94.css.map": "/URLToCODE/static/css/main.4065de94.css.map",
+    "main.b995d01a.js.map": "/URLToCODE/static/js/main.b995d01a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4065de94.css",
+    "static/js/main.b995d01a.js"
+  ]
+}
