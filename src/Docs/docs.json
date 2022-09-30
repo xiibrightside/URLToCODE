@@ -2,7 +2,7 @@
   {
     "key": "1",
     "heading": "WHAT IS THIS ?",
-    "description": "> Built upon the ReactJS framework and using the ( https://shrtco.de/ ) API, this website does the Simple task of Shortening the provided URL down to a 5-letter CODE, which can then later be used to access the URL again, it provides an Effecient, Safe and Elegant Sharability of Links. Simply Enter URL in the {URL to CODE} section to get a Link and share the Code you recieve the person on the recieving end will the use the {CODE to URL} section or just prefix the Code with - (https://shrtco.de/) to access the website. Hover over the hyperLink to preview it before accessing it for your own Safety !"
+    "description": "> shrinkLink is built on ReactJS and uses the shrtcode API, it does the Simple task of Shortening the provided URL down to a CODE, which can then later be used to access the URL again, it provides an Effecient, Safe and Elegant Sharability of Links. Simply Enter URL in the {URL to CODE} section to get a Code and share the Code you recieve, the person on the recieving end will then use the {CODE to URL} section or just prefix the Code with - (https://shrtco.de/) to access the website. Hover over the hyperLink to preview it before accessing it for your own Safety !"
   },
   {
     "key": "2",

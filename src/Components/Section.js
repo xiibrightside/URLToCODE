@@ -6,8 +6,8 @@ const Section = () => {
   const [section, setSection] = useState(true);
 
   return (
-    <div className="section-container flex flex-col justify-center items-center">
-      <div className="section-buttons flex flex-row">
+    <div className="section-container w-full flex flex-col justify-center items-center gap-24">
+      <div className="section-buttons flex flex-row gap-12">
         <button
           className={`${section ? `active` : `none`}`}
           onClick={() => setSection(true)}

@@ -22,6 +22,7 @@ const Reverse = () => {
       setURL("");
       setCode("");
       setError("");
+      setLink("");
     } else {
       setCode(event.target.value);
     }
@@ -54,8 +55,14 @@ const Reverse = () => {
       <div className="form-container flex flex-col justify-center items-center gap-5">
         <form id="url-form" onSubmit={handleSubmit}>
           <div className="input-bar flex flex-row">
-            <input onChange={handleChange} placeholder="Input CODE"></input>
-            <button>Get URL</button>
+            <input
+              className="outline-none"
+              onChange={handleChange}
+              placeholder="Input CODE"
+            ></input>
+            <button className="flex justify-center items-center">
+              Get URL
+            </button>
           </div>
         </form>
         <div className="output-container flex flex-row">
@@ -72,7 +79,10 @@ const Reverse = () => {
               </a>
             )}
           </div>
-          <button onClick={clearForm}>
+          <button
+            className="flex justify-center items-center"
+            onClick={clearForm}
+          >
             <i className="fa-xl fa-solid fa-rotate-right"></i>
           </button>
         </div>

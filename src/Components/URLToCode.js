@@ -53,15 +53,24 @@ const Shortner = () => {
       <div className="form-container flex flex-col justify-center items-center gap-5">
         <form id="url-form" onSubmit={handleSubmit}>
           <div className="input-bar flex flex-row">
-            <input onChange={handleChange} placeholder="Input URL"></input>
-            <button>Get CODE</button>
+            <input
+              className="outline-none"
+              onChange={handleChange}
+              placeholder="Input URL"
+            ></input>
+            <button className="flex justify-center items-center">
+              Get CODE
+            </button>
           </div>
         </form>
-        <div className="output-container flex flex-row">
+        <div className="output-container flex flex-row w-full justify-between">
           <div className="output-box flex justify-center items-center">
             {shortURL}
           </div>
-          <button onClick={clearForm}>
+          <button
+            className="flex justify-center items-center"
+            onClick={clearForm}
+          >
             <i className="fa-xl fa-solid fa-rotate-right"></i>
           </button>
         </div>
